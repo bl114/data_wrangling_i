@@ -17,3 +17,12 @@ litters_df = janitor::clean_names(litters_df)
 ```
 
 ## Take a look at the data
+
+Printing in the console
+
+```{r}
+litters_df
+tail (litters_df)
+skimr::skim(litters_df)
+```
+
