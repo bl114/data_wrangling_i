@@ -37,4 +37,14 @@ mlb_df = read_excel("./data_import_examples/mlb11.xlsx")
 mlb_df
 ```
 
+## Comparison with Base R
+
+what about read.csv?
+
+```{r}
+litters_base = read.csv("./data_import_examples/FAS_litters.csv")
+litters_readr = read_csv("./data_import_examples/FAS_litters.csv")
+litters_base
+litters_readr
+```
 
