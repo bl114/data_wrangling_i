@@ -5,6 +5,8 @@ output: github_document
 
 ```{r}
 library(tidyverse)
+library(readxl)
+library(haven)
 ```
 
 ## Read in some data
@@ -25,4 +27,14 @@ litters_df
 tail (litters_df)
 skimr::skim(litters_df)
 ```
+
+## Other file formats
+
+Read in an Excel file
+
+```{r}
+mlb_df = read_excel("./data_import_examples/mlb11.xlsx")
+mlb_df
+```
+
 
