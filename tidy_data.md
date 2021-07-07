@@ -16,3 +16,11 @@ library(tidyverse)
     ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
     ## x dplyr::filter() masks stats::filter()
     ## x dplyr::lag()    masks stats::lag()
+
+## pivot\_longer
+
+``` r
+pulse_data=
+  sas7bdat::read.sas7bdat ("./data_import_examples/public_pulse_data.sas7bdat") %>%
+  janitor::clean_names()
+```

@@ -8,3 +8,11 @@ author: Ben Lebwohl
 library(tidyverse)
 ```
 
+## pivot_longer
+
+```{r}
+pulse_data=
+  sas7bdat::read.sas7bdat ("./data_import_examples/public_pulse_data.sas7bdat") %>%
+  janitor::clean_names()
+```
+
