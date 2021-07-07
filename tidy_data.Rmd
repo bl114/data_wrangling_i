@@ -1,0 +1,10 @@
+---
+title: "Tidy Data"
+output: github_document
+author: Ben Lebwohl
+---
+
+```{r}
+library(tidyverse)
+```
+
